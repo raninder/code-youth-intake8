@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registeration Form</title>
+	<style>
+		label{
+			color:red;
+			display:inline-block;
+			width:100px;
+			text-align: left;
+		}
+		h1{
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<form action="test.html">
+		<h1>Registeration form</h1>
+		<label for="name">Name:</label>
+	<!-- Name: <input type="text" name="username" maxlength="10" size="20" value="John" readonly/>  -->
+	<input type="text" name="uname" id="name"/>
+	<br><br>
+	<!-- <label>Password: -->
+	<label for="password">Password:</label>
+	 <input type="password" name="password" id="password"/>
+	</label>
+	<br><br>
+	<label for="email">Email:</label>
+	<input type="email" name="email" id="email" />
+	<br><br>
+	<label for="date">DOB</label>
+	<input type="date" name="date" id="date" />
+	<br><br>
+	<label for="country">Country:</label>
+	<br><br>
+	<label for="desc">Description:</label>
+	<textarea rows=5 cols=10 id="desc" name="desc" >Enter Summary...</textarea>
+	<br><br>
+	<label for="skills">Skills:</label>
+	<input type="checkbox" name="skill1" id="skills" value="html" checked>HTML </input>
+	<input type="checkbox" name="skill2" id="skills" value="css" >CSS </input>
+	<input type="checkbox" name="skill3" id="skills" value="js" >Javascript </input>
+	<br><br>
+	<label for="gender">Gender:</label>
+	<input type="radio" name="radio1" id="gender" value="male" checked>Male </input>
+	<input type="radio" name="radio1" id="gender" value="female" >Female </input>
+	<input type="radio" name="radio1" id="gender" value="other" >Others </input>
+	<br><br>
+	<label for="country">Country:</label>
+	<select name="country" id="country">
+		<option value="canada">Canada</option>
+		<option value="us">US</option>
+		<option value="england">England</option>
+	</select>
+	<br><br>
+	<label for="file">Upload File:</label>
+	<input type="file" name="file" accept="image/*">
+	<br><br>
+	<input type="submit" value="Register" />
+	<input type="reset" value="Reset" />
+	<input type="button" value="Click me" onclick="alert('hi')" />
+	</form>
+
+</body>
+</html>
+
+
