@@ -1,3 +1,10 @@
+# Basic tags
+<p>
+<h1>...<h6>
+<b>
+<i>
+<u>
+
 # 3 types of lists
 - Ordered Lists OL
 <OL>
@@ -15,6 +22,7 @@ https://www.geeksforgeeks.org/what-is-nesting-of-list-how-to-create-the-nested-l
 
 # Hyperlinks
 <a href="https://yahoo.com">Yahoo</a>
+
 ## using image as a hyperlink
 EX:create 3 products(images), clicking on each will display full image and description like in Amazon
 ## internal linking
@@ -23,6 +31,9 @@ Ex: goto Top or go to bottom example
 https://taimoorsattar.com/blogs/table-on-webpage
 Ex: other tables in images 
 
+# Form
+Ex: https://rpbloggers.com/wp-content/uploads/2022/01/free-login-page-template-html-css.jpg
+https://www.w3.org/wiki/images/0/01/Figure30.png
 
 
 
