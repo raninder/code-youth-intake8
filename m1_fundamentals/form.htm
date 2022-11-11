@@ -19,10 +19,12 @@
 </head>
 <body>
 	<form action="test.html">
+		<fieldset>
+			<legend>Registeration </legend>
 		<h1>Registeration form</h1>
 		<label for="name">Name:</label>
 	<!-- Name: <input type="text" name="username" maxlength="10" size="20" value="John" readonly/>  -->
-	<input type="text" name="uname" id="name"/>
+	<input type="text" name="uname" id="name" required/>
 	<br><br>
 	<!-- <label>Password: -->
 	<label for="password">Password:</label>
@@ -30,7 +32,7 @@
 	</label>
 	<br><br>
 	<label for="email">Email:</label>
-	<input type="email" name="email" id="email" />
+	<input type="email" name="email" id="email" required/>
 	<br><br>
 	<label for="date">DOB</label>
 	<input type="date" name="date" id="date" />
@@ -63,6 +65,7 @@
 	<input type="submit" value="Register" />
 	<input type="reset" value="Reset" />
 	<input type="button" value="Click me" onclick="alert('hi')" />
+</fieldset>
 	</form>
 
 </body>
