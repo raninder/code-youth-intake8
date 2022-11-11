@@ -35,6 +35,18 @@ Ex: other tables in images
 Ex: https://rpbloggers.com/wp-content/uploads/2022/01/free-login-page-template-html-css.jpg
 https://www.w3.org/wiki/images/0/01/Figure30.png
 
+# embedding another webpage(google maps/youtube etc.)
+iframe
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+Ex: https://www.123formbuilder.com/docs/configure-google-maps-with-your-api/
+# media
+mp3
+Ex: https://www.soundhelix.com/audio-examples
+mp4
+https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
+
+# div and span
+
 
 
 
