@@ -47,7 +47,8 @@ https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
 
 # div and span
 
-# css
+# css:
+https://tutorial.techaltum.com/cssselectors.html
 Syntax:
 selector{
 	prop1:value1;
@@ -61,7 +62,7 @@ selector{
 3. External css	
 
 
-# id and class selectors
+## id and class selectors
 id: specific element, always unique in document
 class: for multiple elements
 
@@ -70,3 +71,7 @@ Ex:  external css
 quotation page with background color: light blue
 Quotation title-center, Dark blue
 Quotation1, 2- center,red, font -arial,background-pink
+
+## group selectors, descendant selector, child selectors, universal selectors
+
+## background color, background image, border, margin, font styles
