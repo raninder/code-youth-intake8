@@ -47,7 +47,26 @@ https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
 
 # div and span
 
+# css
+Syntax:
+selector{
+	prop1:value1;
+	prop2:value;
+	}
+
+## including css
+3 ways: 
+1. inline style
+2. Internal css
+3. External css	
 
 
+# id and class selectors
+id: specific element, always unique in document
+class: for multiple elements
 
 
+Ex:  external css
+quotation page with background color: light blue
+Quotation title-center, Dark blue
+Quotation1, 2- center,red, font -arial,background-pink
