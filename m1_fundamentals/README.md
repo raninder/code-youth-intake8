@@ -75,3 +75,5 @@ Quotation1, 2- center,red, font -arial,background-pink
 ## group selectors, descendant selector, child selectors, universal selectors
 
 ## background color, background image, border, margin, font styles
+
+## margin, padding
