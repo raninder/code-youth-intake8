@@ -76,4 +76,10 @@ Quotation1, 2- center,red, font -arial,background-pink
 
 ## background color, background image, border, margin, font styles
 
-## margin, padding
+## margin, padding, border-box, divs, float
+
+## text styles, pseudo-classes, lists
+
+Ex: 
+1. one news with all effects from cp24.com
+2. https://www.cbc.ca/news
