@@ -45,7 +45,7 @@ Ex: https://www.soundhelix.com/audio-examples
 mp4
 https://gist.github.com/manico/f2e6dd3371f17737331d559219b354ab
 
-# div and span
+## div and span
 
 # css:
 https://tutorial.techaltum.com/cssselectors.html
@@ -73,13 +73,36 @@ Quotation title-center, Dark blue
 Quotation1, 2- center,red, font -arial,background-pink
 
 ## group selectors, descendant selector, child selectors, universal selectors
+h1,p  h1 and p
+h1 p  -> styling p which is descendant(child,grandchild, grand grandchild) of h1
+h1>p -> styling p which is direct child of h1
+.p1{
+
+}
+.sec{
+
+}
+h1 p{
+
+}
+<p class="p1 sec">
+*{
+	margin:0;
+	box-sizing:border-box;
+}
 
 ## background color, background image, border, margin, font styles
 
 ## margin, padding, border-box, divs, float
-
+float:left
 ## text styles, pseudo-classes, lists
-
+h1:hover
+a:active
+a:visited
+a:link
+a:hover
 Ex: 
 1. one news with all effects from cp24.com
 2. https://www.cbc.ca/news
+
+## tables,display, position
