@@ -5,16 +5,36 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Table</title>
+	<style>
+		table,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+			/* background-color: cornsilk; */
+		}
+		th,td{
+			padding:5px;
+		}
+		/* thead{
+			/* background-color: cornsilk; */
+		/* } */ */
+		#head{
+			color:red;
+		}
+		tfoot{
+			text-align: center;
+			font-weight: bold;
+		}
+		/* tr:nth-child(even){
+			background-color: gray;
+		} */
+	</style>
 </head>
 <body>
 	<!-- <h2>Groceries</h2> -->
-	<table border=2 cellspacing=0 cellpadding=10>
+	<table>
 		<caption>Groceries List</caption>
-		<tr>
-			<th>Item Name</th>
-			<th>Quantity</th>
-			<th>Price</th>
-		</tr>
+		
+	<tbody>
 		<tr>
 			<td>Potatoes</td>
 			<td>10</td>
@@ -25,10 +45,21 @@
 			<td>25</td>
 			<td>$5.00</td>
 		</tr>
+	</tbody>
+	<thead>
+		<tr id="head">
+			<th>Item Name</th>
+			<th>Quantity</th>
+			<th>Price</th>
+		</tr>
+	</thead>
+	<!-- <tfoot> -->
 		<tr>
 			<td colspan=2>Total Price</td>
 			<td>100</td>
 		</tr>
+	<!-- </tfoot> -->
+
 	</table>
 </body>
 </html>
