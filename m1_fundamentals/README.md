@@ -93,7 +93,7 @@ h1 p{
 
 ## background color, background image, border, margin, font styles
 
-## margin, padding, border-box, divs, float
+## margin, padding, divs, float
 float:left
 ## text styles, pseudo-classes, lists
 h1:hover
@@ -101,8 +101,15 @@ a:active
 a:visited
 a:link
 a:hover
-Ex: 
+Exercise: 
 1. one news with all effects from cp24.com
-2. https://www.cbc.ca/news
+2. https://www.cbc.ca/news - different news
 
-## tables,display, position
+## box-sizing,tables,display
+- thead/tbody/tfooter styles, striped table
+- inline, block, inline-block
+
+Exercise:  lookalike of 
+http://web.mit.edu/6.813/www/sp16/labs/lab1-html-css/ex1-example.png
+
+Exercise: Navbar like https://www.cbc.ca/news
