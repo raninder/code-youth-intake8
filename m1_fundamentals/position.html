@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			height:1000px;
+		}
+		.static{
+			position:sttaic;
+			left:10px;
+			top:20px;
+		}
+		.relative{
+			position:relative;
+			left:10px;
+			top:20px;
+			border:1px solid;
+		}
+		.fixed{
+			position:fixed;
+			left:10px;
+			bottom:20px;
+			border:1px solid;
+		}
+		#parent{
+			position:relative;
+			border:1px solid green;
+		}
+		.absolute{
+			position:absolute;
+			left:10px;
+			top:10px;
+			border:1px solid red;
+			background-color: burlywood;
+		}
+	</style>
+</head>
+<body>
+	<h1>Positioning</h1>
+	<div id="parent">
+		<p>One</p>
+		<p class="static">Two</p>
+		<p class="relative">Three</p>
+		<p class="absolute">Four</p>
+		<div class="fixed"><p>Five</p><p>Six</p></div>
+	</div>
+</body>
+</html>
