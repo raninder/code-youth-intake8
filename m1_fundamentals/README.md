@@ -113,3 +113,12 @@ Exercise:  lookalike of
 http://web.mit.edu/6.813/www/sp16/labs/lab1-html-css/ex1-example.png
 
 Exercise: Navbar like https://www.cbc.ca/news
+
+## position, z-index, website layout
+- static
+- fixed
+- relative
+- absolute
+
+Exercise1: https://www.crio.do/blog/content/images/2022/02/HTML-Project---Online-Code-Editor--JQuery.png
+Exercise2: create w3schools website template 
