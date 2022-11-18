@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		#container{
+			/* padding:100px; */
+			height:200px;
+			background-color: darkgray;
+			display:flex;
+			flex-direction: row;
+			justify-content: center;  /* center, flex-start,flex-end,space-between, space-around, space-evenly*/
+			align-items: center;  /* flex-start,flex-end, stretch,center,baseline*/
+		}
+		#container>div{
+			/* .one, .two,.three{ */
+			height:50px;
+			width:50px;
+			border:1px solid;
+			margin:10px;
+		}
+		.one{
+			order:3;
+			flex-grow: 1;
+		}
+		.two{
+			flex-grow: 2;
+		}
+		.three{
+			flex-grow: 3;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="one">1</div>
+		<div class="two">2</div>
+		<div class="three">3</div>
+	</div>
+</body>
+</html>
