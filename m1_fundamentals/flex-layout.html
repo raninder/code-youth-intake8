@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		html,body{
+			height:100%;
+		}
+		body{
+			display:flex;
+			flex-direction: column;
+		}
+		header{
+			display:flex;
+			background-color: darkgray;
+			justify-content: center;
+			padding:20px;
+		}
+		a{
+			text-decoration: none;
+			padding:10px;
+			color:red;
+		}
+		main{
+			display:flex;
+			flex-direction: row;
+			/* justify-content: center; */
+			/* align-items: center; */
+			flex:1;
+			/* flex: 1;  1 1 0 */
+			border:1px solid;
+		}
+		/* div{
+			margin:20px;
+			border:1px solid red;
+			padding:10px;
+			width:30px;
+		
+		} */
+		footer{
+			background-color: darkslateblue;
+			text-align:center;
+			padding:30px;
+		}
+		
+		aside{
+			width:30%;
+			border: 1px solid red;
+		}
+		section{
+			width:70%;
+			
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="">Link</a>
+		<a href="">Link</a>
+		<a href="">Link</a>
+	</header>
+	<main>
+		<aside>ASide</aside>
+		<section>Main</section>
+		<!-- <div>Box1</div>
+		<div>Box2</div> -->
+	</main>
+	<footer>
+		Footer
+	</footer>
+</body>
+</html>
