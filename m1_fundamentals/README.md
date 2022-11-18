@@ -122,3 +122,6 @@ Exercise: Navbar like https://www.cbc.ca/news
 
 Exercise1: https://www.crio.do/blog/content/images/2022/02/HTML-Project---Online-Code-Editor--JQuery.png
 Exercise2: create w3schools website template 
+
+## media query, flex
+Exercise- flex layout, google search page
