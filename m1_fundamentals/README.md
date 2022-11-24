@@ -125,3 +125,5 @@ Exercise2: create w3schools website template
 
 ## media query, flex
 Exercise- flex layout, google search page
+
+# Project - Landing Page in HTML and CSS
