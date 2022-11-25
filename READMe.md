@@ -1,8 +1,10 @@
 # Introduction to HTML,CSS  and Javascript
+Programming exercises:if-else
+https://codeforwin.org/2015/05/if-else-programming-practice.html
+https://www.w3resource.com/c-programming-exercises/conditional-statement/index.php
 
 
 If questions(2022-11-25)
-
 1. Write a program to check whether a number is negative, positive or zero.
 
 2. Write a program to check whether a number is even or odd.
@@ -27,3 +29,4 @@ Percentage less than 40% : Grade F
 6. There are three switchs and a light, switchA, switchB, and switchC
     In order for the light to turn on switchA and switchB must be on and switchC must be off.
     Write this using an if statement
+
