@@ -127,3 +127,4 @@ Exercise2: create w3schools website template
 Exercise- flex layout, google search page
 
 # Project - Landing Page in HTML and CSS
+
