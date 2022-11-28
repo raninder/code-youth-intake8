@@ -86,3 +86,21 @@ ex: print even and odd numbers from 1 to 50
 2 is even
 3 is odd
 4 is even....
+
+
+display n terms of natural number and their sum.
+Test Data : 7
+Expected Output :
+The first 7 natural number is :
+1 2 3 4 5 6 7
+The Sum of Natural Number upto 7 terms : 28
+
+Read 10 numbers using prompt and find their sum and average.
+Test Data :
+Input the 10 numbers :
+Number-1 :2
+...
+Number-10 :2
+Expected Output :
+The sum of 10 no is : 55
+The Average is : 5.500000
