@@ -30,3 +30,18 @@ Percentage less than 40% : Grade F
     In order for the light to turn on switchA and switchB must be on and switchC must be off.
     Write this using an if statement
 
+
+
+28/11/22
+ex1: input number, if number divisble by 3, print milk
+if divisble by 5, print opy
+if by 3 and 5, print popmilk
+
+ex2: print even and odd numbers from 1 to 50
+1 is odd
+2 is even
+3 is odd
+4 is even....
+
+
+ex3:Read 10 numbers using prompt and find their sum and average.
