@@ -104,3 +104,9 @@ Number-10 :2
 Expected Output :
 The sum of 10 no is : 55
 The Average is : 5.500000
+
+
+29/11/2022
+Sum of Even natural numbers
+2+4+6+8+10
+multiplication table of a number using while loop
