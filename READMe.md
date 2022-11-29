@@ -34,7 +34,7 @@ Percentage less than 40% : Grade F
 
 28/11/22
 ex1: input number, if number divisble by 3, print milk
-if divisble by 5, print opy
+if divisble by 5, print pop
 if by 3 and 5, print popmilk
 
 ex2: print even and odd numbers from 1 to 50
