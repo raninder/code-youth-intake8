@@ -45,3 +45,49 @@ ex2: print even and odd numbers from 1 to 50
 
 
 ex3:Read 10 numbers using prompt and find their sum and average.
+
+Logical Operator and for loop questions(28/11/22)
+
+//Logical Opperators
+/*
+1)  Redo this question from friday using logical opperators
+
+    There are three switchs and a light, switchA, switchB, and switchC
+    In order for the light to turn on switchA and switchB must be on and switchC must be off.
+    Write this using an if statement
+    
+    */
+
+/*
+2) Redo this question from friday using logical opperators
+
+    There are 4 switches and 1 light, switchA, switchB, and switchC, and switchD
+    In order for the light to turn on switchA must be on and switchB or switchD must be on, switchC must be off.
+
+*/
+
+
+//For loop
+
+/*
+1)
+Create a variable called myNumber, set it to a number between 0 and 10
+Create a for loop that runs from 0 to 10, if i equals your number, console.log("My number is " + i)
+*/
+
+/*
+2)
+Create a for loop that runs 3 times,
+Before the loop starts, console.log("Loop Start")
+if the loop is on it's first iteration, console.log("First Iteration")
+if the loop is on it's second iteration, console.log("Second Iteration")
+if the loop is on it's third iteration, console.log("Third Iteration")
+when the for loop ends, console.log("Loop End")
+*/
+
+/*
+3)
+    Create a variable called year, set it to 1970
+    Using a for loop check if each year from 1970 to 2022 is a leap year
+    if it is console.log(year + " is a leap year")
+*/
