@@ -2,6 +2,7 @@
 Programming exercises:if-else
 https://codeforwin.org/2015/05/if-else-programming-practice.html
 https://www.w3resource.com/c-programming-exercises/conditional-statement/index.php
+http://www.beginwithjava.com/java/loops/questions.html
 
 
 If questions(2022-11-25)
@@ -90,4 +91,3 @@ when the for loop ends, console.log("Loop End")
     Create a variable called year, set it to 1970
     Using a for loop check if each year from 1970 to 2022 is a leap year
     if it is console.log(year + " is a leap year")
-*/
