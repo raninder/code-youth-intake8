@@ -110,3 +110,26 @@ The Average is : 5.500000
 Sum of Even natural numbers
 2+4+6+8+10
 multiplication table of a number using while loop
+
+# functions
+block of code that performs a particular task
+- in-built functions-  alert(), prompt()
+- user-defined functions
+
+Ex: calculator- use return inb function
+addition
+
+function addition(a,b){
+	//
+}
+prompt("enter operatper)  +
+
+if(op=='+'){
+	add(10,12)
+}
+else if(op=='-')
+addition(10,12)
+multiplication
+division
+subtrcation
+remainder
