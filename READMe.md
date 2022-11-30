@@ -91,3 +91,11 @@ when the for loop ends, console.log("Loop End")
     Create a variable called year, set it to 1970
     Using a for loop check if each year from 1970 to 2022 is a leap year
     if it is console.log(year + " is a leap year")
+*/
+
+Loops(29/11/22):
+
+   /*
+        Console.log() every number from 0 - 10 using a for loop
+        do it again using a while loop
+    */
