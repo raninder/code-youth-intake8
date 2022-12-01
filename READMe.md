@@ -99,3 +99,14 @@ Loops(29/11/22):
         Console.log() every number from 0 - 10 using a for loop
         do it again using a while loop
     */
+
+
+Arrays(1/12/22)
+1. Count even elements in an array.  [22,5,8,12,45,78] ==>4   count=0;  count++;
+2. Find the sum and average of n array elements
+3. Search an element in an array
+4. Find the smallest element from an array. =>  5 is my smallest elemnt and its position is 2.//optional
+let min = a[0];
+for(1-   length)
+if(min>a[1,2,3])
+min=a[i]
