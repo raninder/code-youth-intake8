@@ -19,3 +19,31 @@ console.log(cube(22));  //console.log(res)
 // let result = cube(22);
 // console.log(result);
 // ex: cube(5) ->  125
+
+// arrow functions
+
+const multiply = (val1,val2) => { 
+	let output= val1*val2;
+	return output;
+}
+
+const  calculator = (val1,val2,op) => {
+	if(op=='+')
+	return
+}
+
+const display = ()=> console.log("bob");
+display();
+
+// const multiply = (val1,val2) => return val1*val2   //3.142*radius*radius
+
+console.log(multiply(3,6));
+
+// Ex: find area of a circle, use arrow functions
+// pi*r*r 
+// const pi= 3.142
+
+const area = (radius) => { return 3.142*radius*radius}
+console.log("area:",area(4))
+console.log("area:",area(8))
+
