@@ -112,3 +112,62 @@ let min = a[0];
 for(1-   length)
 if(min>a[1,2,3])
 min=a[i]
+
+Arrays(1/12/22) - Given as bonus
+    //Arrow Functions
+
+    /*
+    1.
+    Write an arrow function to find the sum of two numbers
+    */
+
+
+    /*
+    2.
+    Write an arrow function to console.log() every item in the objects array
+    */
+
+
+    //Arrays
+
+    /*
+    1.
+
+    Find any mistakes in the following array and correct them
+
+    Let "myArray" = '[true, `Howdy`]'
+    */
+
+    /*
+    2.
+
+    There are 4 switches and a light
+    All four switches are contained in the switches array.
+    In order for the light to turn on the switch in position 0 must be on and the switches in either position 1, or position 3 must be on. The switch in position 2 must be off
+    */
+
+    let switches = [true, true, false, true]
+    let light;
+
+    /*
+    4.
+
+     The sequence should be true, false, true, false, true, false...
+     Using a loop check if any items in the array break the sequence.
+     If any item in the array is incorrect, change it to be correct
+
+     console.log() sequence at the end to see if you fixed the array
+    */
+
+    let sequence = [true, false, true, true, false, true, true, true, false]
+
+    /*
+    5.
+    
+    Using a loop check to see if every number in the fibonacci array is correct.
+    If any number is incorrect console.log() that the number is not correct
+
+    !Remember in a fibonacci sequence each number must equal the sum of the two that come before it with the execption of the first two numbers
+    */
+
+    let fibonacci = [0,1,1,2,3,5,8,13,21,35,55,89,144,233]
