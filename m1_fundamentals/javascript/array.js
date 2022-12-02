@@ -4,7 +4,9 @@
 
 // array is ordered collection of elements
 //array literal
+
 let student = ['ebru',"kafi","burak","hassan","ray","samantha"];
+student.length  //6
 let a = [2,5,8,9,23];
 //using array constructor
 let b = new Array(10,20,30,40);
