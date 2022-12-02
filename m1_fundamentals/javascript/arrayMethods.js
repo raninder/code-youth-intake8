@@ -1,3 +1,5 @@
+// https://medium.com/@mandeepkaur1/a-list-of-javascript-array-methods-145d09dd19a0
+
 let colors = ['red','green','blue','yellow','pink'];
 // colors[0] --- red
 // colors[1] --- green
