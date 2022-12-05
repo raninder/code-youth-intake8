@@ -80,6 +80,15 @@ arr.reverse();
 console.log("reverse",arr);
 
 let newArr = arr.map((ele)=> ele/2);
+// let newArr = arr.map(function(ele){
+// 	return ele/2;
+// })
+// let newArr = arr.map(divide);
+// function divide(ele){
+// 	return ele/2;
+// }
+
+
 let res = [];
 for(i=0;i<arr.length;i++){
 	res.push(arr[i]/2);
