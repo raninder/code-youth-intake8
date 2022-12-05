@@ -10,7 +10,7 @@ student.length  //6
 let a = [2,5,8,9,23];
 //using array constructor
 let b = new Array(10,20,30,40);
-let d= [5,'hi',true, 34.6,"bob"];
+const d= [5,'hi',true, 34.6,"bob"];
 
 let c = [];
 c[0]=2;
