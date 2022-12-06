@@ -9,9 +9,14 @@ http://www.beginwithjava.com/java/loops/questions.html
 Arrays
 https://www.w3resource.com/javascript-exercises/javascript-array-exercises.php
 https://www.tutorialride.com/c-array-programs/30-c-programs-and-code-examples-on-arrays.htm
+https://www.tutorialsandyou.com/javascript/javascript-array-exercises-practice-and-solution-15.html
 
 objects
 https://javascript.info/object
+https://www.teaching-materials.org/javascript/exercises/objects
+https://www.tutorialsandyou.com/javascript/javascript-object-destructuring-exercises-practice-and-solution-22.html
+
+
 
 
 If questions(2022-11-25)
@@ -241,3 +246,11 @@ Arrays(1/12/22) - Given as bonus
     ["avengers", "captain_america", "ironman", "black panther"]
     */
 
+1. The Reading List
+Keep track of which books you read and which books you want to read!
+
+Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
+Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+2. Array of Recipes- display all recipes with title, servings, cooking time, ingredients using document.write
