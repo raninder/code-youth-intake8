@@ -133,3 +133,7 @@ multiplication
 division
 subtrcation
 remainder
+
+
+ex: colors = ["white",.....]
+count no. of vowels in each color
