@@ -241,3 +241,88 @@ Arrays(1/12/22) - Given as bonus
     ["avengers", "captain_america", "ironman", "black panther"]
     */
 
+
+    Array and objects(05/12/2022)
+        //Arrays
+    
+    /*
+    .includes()
+    1.  
+    Using the .includes() method find if both arrays include the number 50
+    if both arrays have the number 50 console.log("both")
+    otherwise console.log() which array has the number 50
+    */
+   let arr1 = [1,5,50,4,7,19]
+   let arr2 = [5,5,4,49,7,11]
+
+   
+    /*
+    .includes() .push()
+    2.
+    Take everything from the list array and put it into the cart array.
+    If something from list is already in cart dont add it
+    */
+   let list = ["shoes","lettuce","cabbage","shirt","ham","soccerball","football","leaf","ranch dressing"]
+   let cart = ["lettuce","ham","tetherball","skateboard"]
+
+    /*
+    .filter()
+    3.
+    Using the filter method create a new array that only includes values that are multiples of ten
+    */
+    let nums = [45,50,55,60,75,80,95,90,100,10,20,15,44]
+
+    /*
+    .forEach()
+    4.
+    Using for each console.log() each item in the nums array from the previous question
+    */
+
+
+    //Objects
+    /*
+    5.
+    Using the userSettings object console.log() everyvalue either of the two ways you have learned: object[key] and object.key
+    */
+    let userSettings = {
+        username:"Jurimo Datatag",
+        password:"Password12",
+        lastLogin: "01/11/2022",
+    }
+
+
+    /*
+    6.
+    Set the password from userSettings to a new password using either object.key or object[key]
+    */
+    
+
+
+    /*
+    7.
+    Add a new key to userSettings called theme and set it's value to either 'light' or 'dark'
+    */
+   
+
+
+
+
+    //Objects and Arrays
+    /*
+    .sort()
+    8.
+    Sort this array based on the id in each object
+    */
+    let userData = [{
+        "name":"Sarsha Warsha",
+        "position":"Chief of Science",
+        "id":3
+    },{
+        "name" : "Bingle Dorf",
+        "position" : "CEO",
+        "id":1
+    },{
+        "name":"Jurimo Datatag",
+        "position":"Head of Security",
+        "id":2
+    }]
