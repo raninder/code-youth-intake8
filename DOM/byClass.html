@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Welcome to Code Youth</h1>
+	<p class="para"> First paragraph</p>
+	<p> Second paragraph</p>
+	<p class="para"> Third paragraph</p>
+
+	<button onclick="change()">Change</button>
+	<script>
+		function change(){
+			const ele = document.getElementsByClassName("para");
+			console.log(ele);
+			for(let i=0;i<ele.length;i++){
+				ele[i].style.color="red"
+			}
+			ele[0].style.color="red";
+			ele[1].style.color="green";
+			ele[3].style.color="blue";
+		
+		}
+	</script>
+</body>
+</html>
+
+Ex2:  change color of colors in a list
+red
+green
+purple
+blue
+
+Ex3: change color of fruits, chnage heading to Fruits grocery List
+list of Fruits
+Apples
+Kiwi
+Grapes
+Orange
+Stawberry
+Pomegranate
+
+
+
