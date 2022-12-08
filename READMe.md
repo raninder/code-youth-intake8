@@ -1,4 +1,6 @@
 # Introduction to HTML,CSS  and Javascript
+https://tutorial.techaltum.com/
+
 Programming exercises:if-else
 https://codeforwin.org/2015/05/if-else-programming-practice.html
 https://www.w3resource.com/c-programming-exercises/conditional-statement/index.php
@@ -16,7 +18,8 @@ https://javascript.info/object
 https://www.teaching-materials.org/javascript/exercises/objects
 https://www.tutorialsandyou.com/javascript/javascript-object-destructuring-exercises-practice-and-solution-22.html
 
-
+Quiz:
+https://www.javatpoint.com/javascript-quiz
 
 
 If questions(2022-11-25)
