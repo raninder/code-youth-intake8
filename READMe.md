@@ -357,3 +357,56 @@ DOM(08/12/2022)
     <li class="sports">DodgeBall</li>
 </ul>
 
+DOM - Appending(09/12/2022)
+    <!-- Ex1: Using .querySelectorAll() Select all the li's in the myList list-->
+    <ul id="myList">
+        <li>Hello</li>
+        <li>WOw</li>
+        <li>So Cool</li>
+    </ul>
+    
+    <ul>
+        <li>No</li>
+        <li>What</li>
+        <li>From</li>
+    </ul>
+
+    <!-- Ex2: Recreate the following table using only DOM
+
+     <table border="1" class="employeeTable">
+        <tr class="headRow">
+            <th>Name</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Bingle Dorf</td>
+            <td>CEO</td>
+        </tr>
+        <tr>
+            <td>Jurimo Datatag</td>
+            <td>Head of Security</td>
+        </tr>
+    </table> -->
+
+
+    <!-- Ex3: Compare the list to the items array. Any items in the array that are not in the list should be added to the list
+    let items = ['brocoli','lettuce','grass','cabbage','frisby','window']
+    -->
+    <ul>
+        <li>lettuce</li>
+        <li>grass</li>
+        <li>frisby</li>
+    </ul>
+
+    <!-- Ex4: Create an onclick function for the button that takes the first li in the first list and puts it into the bottom list -->
+    <ul class="listOne">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <button>↓Move↓</button>
+
+    <ul class="listTwo">
+        
+    </ul>
