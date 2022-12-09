@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+			.heading {
+					color:red;
+					text-align: center;
+					font-weight: bolder;
+			}
+	</style>
+</head>
+<body>
+	<h1>Heading</h1>
+	<p>First paragraph</p>
+	<p class="p2">Second paargraph</p>
+	<div>
+		<p>New</p> 
+		<p class="p2">Third Paragraph</p>
+</div>
+<p>
+	We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+
+</p>
+	<button onclick="change()">Click</button>
+	<script>
+			function change(){
+				const ele = document.querySelectorAll(".p");
+				console.log(ele);
+				for(let i=0;i<ele.length;i++){
+				ele[i].style.color="red";
+				}
+				const bold = document.querySelectorAll("b");
+				bold.forEach((ele)=>{
+					ele.style.backgroundColor="yellow";
+					ele.style.fontFamily="cursive" 
+				}
+					)
+					const h1= document.querySelector("h1");
+					// h1.className="heading";
+					h1.setAttribute("class","heading");
+					// h1.style.textAlign="center";
+					// h1.style.color="blue";
+					// h1.style.fontSize="50px";
+					h1.innerText="New Heading"
+			}
+	</script>
+</body>
+</html>
+
