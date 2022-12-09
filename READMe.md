@@ -346,3 +346,14 @@ Iterate through the array of books. For each book, log the book title and book a
 Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
 
 2. Array of Recipes- display all recipes with title, servings, cooking time, ingredients using document.write
+
+DOM(08/12/2022)
+<!-- Ex4: Get the innerHTML of every li from this list and add it to an array. console.log() the array -->
+<ul>
+    <li class="sports">BasketBall</li>
+    <li class="sports">Hockey</li>
+    <li class="sports">FootBall</li>
+    <li class="sports">Soccer</li>
+    <li class="sports">DodgeBall</li>
+</ul>
+
