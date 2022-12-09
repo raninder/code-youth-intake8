@@ -19,3 +19,22 @@ Grapes
 Orange
 Stawberry
 Pomegranate
+
+# querySelector(), querySelectorAll()
+p
+#p1
+.p1
+
+Ex1: Section 1
+
+We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+
+Heading-appear in the centre, font size bigger, text Main Section, Red in color
+
+Paragraph- everything bold should be highlighted font style changed to cursive
+
+
+Ex2: two buttons -create and remove,,,create list of 5 elements, remove last 2 elements on a click of button
+<ul>
+<li>Math
+<li>english
