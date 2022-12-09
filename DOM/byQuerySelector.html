@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Heading</h1>
+	<p>First paragraph</p>
+	<p class="p2">Second paargraph</p>
+	<div>
+		<p>New</p> 
+		<p class="p2">Third Paragraph</p>
+</div>
+	<button onclick="change()">Click</button>
+	<script>
+			function change(){
+				const ele = document.querySelector("div p");
+				ele.style.color="red";
+
+				document.querySelector("h1").style.textAlign="center"
+			}
+	</script>
+</body>
+</html>
