@@ -22,7 +22,7 @@ Quiz:
 https://www.javatpoint.com/javascript-quiz
 
 
-If questions(2022-11-25)
+# If questions(2022-11-25)
 1. Write a program to check whether a number is negative, positive or zero.
 
 2. Write a program to check whether a number is even or odd.
@@ -64,7 +64,7 @@ ex2: print even and odd numbers from 1 to 50
 
 ex3:Read 10 numbers using prompt and find their sum and average.
 
-Logical Operator and for loop questions(28/11/22)
+# Logical Operator and for loop questions(28/11/22)
 
 //Logical Opperators
 /*
@@ -110,7 +110,7 @@ when the for loop ends, console.log("Loop End")
     if it is console.log(year + " is a leap year")
 */
 
-Loops(29/11/22):
+# Loops(29/11/22):
 
    /*
         Console.log() every number from 0 - 10 using a for loop
@@ -118,7 +118,7 @@ Loops(29/11/22):
     */
 
 
-Arrays(1/12/22)
+# Arrays(1/12/22)
 1. Count even elements in an array.  [22,5,8,12,45,78] ==>4   count=0;  count++;
 2. Find the sum and average of n array elements
 3. Search an element in an array
@@ -189,7 +189,7 @@ Arrays(1/12/22) - Given as bonus
 
 
 
-    Array Methods(02/12/22)
+# Array Methods(02/12/22)
         // .push();
     /*
         1)
@@ -251,7 +251,7 @@ Arrays(1/12/22) - Given as bonus
 
 
 
-    Array and objects(05/12/2022)
+# Array and objects(05/12/2022)
         //Arrays
     
     /*
@@ -347,7 +347,7 @@ Now use an if/else statement to change the output depending on whether you read 
 
 2. Array of Recipes- display all recipes with title, servings, cooking time, ingredients using document.write
 
-DOM(08/12/2022)
+# DOM(08/12/2022)
 <!-- Ex4: Get the innerHTML of every li from this list and add it to an array. console.log() the array -->
 <ul>
     <li class="sports">BasketBall</li>
@@ -357,7 +357,7 @@ DOM(08/12/2022)
     <li class="sports">DodgeBall</li>
 </ul>
 
-DOM - Appending(09/12/2022)
+# DOM - Appending(09/12/2022)
     <!-- Ex1: Using .querySelectorAll() Select all the li's in the myList list-->
     <ul id="myList">
         <li>Hello</li>
@@ -410,3 +410,16 @@ DOM - Appending(09/12/2022)
     <ul class="listTwo">
         
     </ul>
+
+   # Forms(12/12/2022)
+
+    The Book List
+    Keep track of which books you read and which books you want to read!
+
+    Create a webpage with an h1 of "My Book List".
+    Add a script tag to the bottom of the page, where all your JS will go.
+    Copy the array of books from the previous exercise.
+    Iterate through the array of books. For each book, create a p element with the book title and author and append it to the page.
+    Bonus: Use a ul and li to display the books.
+    Bonus: add a property to each book with the URL of the book cover, and add an img element for each book on the page.
+    Bonus: Change the style of the book depending on whether you have read it or not.
