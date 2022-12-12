@@ -5,6 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<style>
+		.class1{
+			background-color: cyan;
+		}
+	</style>
 </head>
 <body>
 	<script>
@@ -12,6 +17,9 @@
 		img.src="/images/pexels.jpg";
 		img.height="200";
 		img.setAttribute("width","300");
+		img.className="class1";
+		ing.setAttribute("class","class1");
+		img.removeAttribute("height");
 		document.body.appendChild(img);
 	</script>
 </body>
