@@ -423,3 +423,42 @@ Now use an if/else statement to change the output depending on whether you read 
     Bonus: Use a ul and li to display the books.
     Bonus: add a property to each book with the URL of the book cover, and add an img element for each book on the page.
     Bonus: Change the style of the book depending on whether you have read it or not.
+
+   # Events(13/12/2022)
+   <!-- Time to make a flight simulator for your fellow astronauts! 
+
+1. When the Take off button is clicked, the text The shuttle is on the ground changes to Houston, we have liftoff!. The Take off button has an id="liftoffButton" attribute.
+
+2. When the user's cursor goes over the Abort Mission button, the button's background turns red. The Abort Mission button has id="abortMission".
+
+3. When the user's cursor leaves the Abort Mission button, the button's background returns to its original state (Hint: Setting the background color to the empty string, "", will force it to revert to the default browser styles.)
+
+4. When the user clicks the Abort Mission button, make a confirmation window that says Are you sure you want to abort the mission?. If the user confirms that they want to abort, the text changes to Mission aborted! Space shuttle returning home. 
+-->
+
+<h1>Flight Simulator</h1>
+<p id="statusReport">The shuttle is on the ground</p>
+<button id = "liftoffButton">Take off</button>
+<button id = "abortMission">Abort mission</button>
+
+  
+
+<!-- 1. Create a click event handler for the following div
+when the div is clicked it should be removed from the page from the page -->
+
+
+<!-- 2. Create one mouseenter event handler for these two divs
+when you hover over one of them give it a red background. If the other div has a red background make it white -->
+
+<!-- 3.
+document.body.addEventListener("keydown",function(event){
+    console.log(_________________)
+}) 
+
+What should you put inside the console.log() to see what key is pressed
+
+-event.target.key
+-event.target.keyCode
+-event.key
+-event.keyCode
+-->
