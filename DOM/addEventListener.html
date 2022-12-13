@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1 onmouseover = "document.querySelector('h1').style.color='green'">Welcome to Code Youth</h1>
+	<p id="p1"> This page teaches you how to find and access HTML elements in an HTML page.</p>
+	<button id="btn">Change</button>
+	<script>
+	
+		const button = document.getElementById("btn");
+		button.addEventListener("click",function(){
+			const p = document.getElementById("p1");
+			p.style.backgroundColor="aqua";
+		})
+		button.addEventListener("click",function(){
+			alert("hi");
+		})
+		button.addEventListener("mouseover",function(e){
+			console.log(e.target);
+				e.target.style.backgroundColor="red";
+		})
+	</script>
+</body>
+</html>
+
