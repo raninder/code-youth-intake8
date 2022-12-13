@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form name="form1" id="form1" onsubmit="return validate()" method="get" >
+	First Name*: <input type="text" name="fn" id="fn" required><br><br>
+	Last Name: <input type="text" value="S" name="ln"><br><br>
+	Password:<input type="password" id="pwd" name="pwd"><br>
+	<input type="submit" value="SUBMIT">
+	</form>
+	<script>
+		function validate(){
+			const form = document.forms["form1"];
+			for(let i=0;i<form.length;i++){
+				console.log(form.elements[i].value);
+				if(form.elements[i].value==""){
+					alert("enter some value");
+					return false;
+				}
+			}
+			// const name = form.fn.value;
+			// if(name==""){
+			// 	alert("name shouldnt be empty");
+			// 	return false;
+			// }
+			// const password = form.pwd.value;		
+				const password = document.getElementById("pwd").value;
+			if(password.length<=6){
+				alert("enter minimum 6 characters");
+				return false;
+			}
+
+		}
+		
+		
+	</script>
+</body>
+</html>
