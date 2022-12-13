@@ -22,11 +22,21 @@
 		<p class="p2">Third Paragraph</p>
 </div>
 <p>
-	We have just <b>started</b> this <b>section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
+	We have just <b onmouseover= "highlight(this)" onmouseout="normal(this)">started</b> this <b onmouseover= "highlight(this)">section</b> for the users (<b>beginner</b> to <b>intermediate</b>) who want to work with various <b>JavaScript</b> problems and write scripts online to test their <b>JavaScript</b> skill.
 
 </p>
 	<button onclick="change()">Click</button>
 	<script>
+		function highlight(ele){
+			// const bold = document.querySelectorAll("b");
+			// 	bold.forEach((ele)=>{
+					ele.style.backgroundColor="yellow";
+
+		// })
+		}
+		function normal(ele){
+			ele.style.backgroundColor="";
+		}
 			function change(){
 				const ele = document.querySelectorAll(".p");
 				console.log(ele);
@@ -35,7 +45,7 @@
 				}
 				const bold = document.querySelectorAll("b");
 				bold.forEach((ele)=>{
-					ele.style.backgroundColor="yellow";
+					// ele.style.backgroundColor="yellow";
 					ele.style.fontFamily="cursive" 
 				}
 					)
