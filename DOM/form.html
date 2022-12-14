@@ -8,17 +8,26 @@
 </head>
 <body>
 	<form name="form1" id="form1" onsubmit="formDisplay()">
-	First Name: <input type="text" value="Ronaldo" name="fn"><br><br>
-	Last Name: <input type="text" value="S" name="ln"><br><br>
+	First Name: <input type="text" value="Ronaldo" name="fn" onfocus="change()" onchange="upper()"><br><br>
+	Last Name: <input type="text" value="S" name="ln" onblur="alert('lost focus')" ><br><br>
 	<input type="submit" value="SUBMIT">
 	</form>
 	<script>
 		// const form = document.forms["form1"];
-		const form1 = document.forms.form1;
-		console.log(form1.length);
-		function formDisplay(){
+		// const form1 = document.forms.form1;
 		const form = document.getElementById("form1");
-		const fname = form["fn"].value;
+		const fname = document.forms.form1.fn;
+
+		console.log(form1.length);
+		function change(){
+			// alert(fname)
+			fname.value="";
+		}
+		function upper(){
+			fname.value=fname.value.toUpperCase();
+		}
+		function formDisplay(){
+	
 		const lname = form.ln.value;
 		document.write(fname+" "+lname);
 		}
