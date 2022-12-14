@@ -61,11 +61,11 @@ https://www.jigsawacademy.com/blogs/what-is-password-validation-in-javascript-be
 Ex1: 
 Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
 
-a <p> with red text that says “Hey I’m red!”
-an <h3> with blue text that says “I’m a blue h3!”
-a <div> with a black border and pink background color with the following elements inside of it:
-another <h1> that says “I’m in a div”
-a <p> that says “ME TOO!”
+a `<p>` with red text that says “Hey I’m red!”
+an `<h3>` with blue text that says “I’m a blue h3!”
+a `<div>` with a black border and pink background color with the following elements inside of it:
+another `<h1>` that says “I’m in a div”
+a `<p>` that says “ME TOO!”
 
 Ex2: two buttons: dark mode and light mode (background black text white)
 
@@ -78,7 +78,7 @@ event.preventDefault();
 })
 When the form is submitted, prevent the default behavior
 Grab the quantity input value and the product price input value
-Create a new <li> element.  Set the text on the new <li> to include the quantity and product name from the form.
+Create a new `<li>` element.  Set the text on the new `<li>` to include the quantity and product name from the form.
 Append the new `<li>` to the `<ul>` on the page
 (https://forum.freecodecamp.org/t/forms-events-exercise/539910)
 
