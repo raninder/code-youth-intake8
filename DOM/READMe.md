@@ -82,11 +82,13 @@ Create a new <li> element.  Set the text on the new <li> to include the quantity
 Append the new `<li>` to the `<ul>` on the page
 (https://forum.freecodecamp.org/t/forms-events-exercise/539910)
 
-<style>
+Ex5: chnaging one image on another on double click
+
+<!-- <style>
 	.style1{
 
 	}
 
 div.className="style1"
 div.classList.add("style1")
-div.setAttribute("class","style1")
+div.setAttribute("class","style1") -->
