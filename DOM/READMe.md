@@ -53,3 +53,40 @@ Replace 3rd row with a new row.
 Ex: create a form with fields name, password and confirm password. validations- password should match confirm password, password should contain digits and alphabets, no field should be empty
 
 value. includes()
+
+https://www.jigsawacademy.com/blogs/what-is-password-validation-in-javascript-beginners-guide/
+
+
+13 Dec. 2022 DOM and events
+Ex1: 
+Add the following elements to the container using ONLY JavaScript and the DOM methods shown above.
+
+a <p> with red text that says “Hey I’m red!”
+an <h3> with blue text that says “I’m a blue h3!”
+a <div> with a black border and pink background color with the following elements inside of it:
+another <h1> that says “I’m in a div”
+a <p> that says “ME TOO!”
+
+Ex2: two buttons: dark mode and light mode (background black text white)
+
+Ex3: when form input get focus, background color light blue, when out of focus, background color is gray, when changed, color becomes red (bonus: try it on select option)
+
+Ex4: 
+Listen for the form submission
+submit.addEventistener("submit",function (event){
+event.preventDefault();
+})
+When the form is submitted, prevent the default behavior
+Grab the quantity input value and the product price input value
+Create a new <li> element.  Set the text on the new <li> to include the quantity and product name from the form.
+Append the new `<li>` to the `<ul>` on the page
+(https://forum.freecodecamp.org/t/forms-events-exercise/539910)
+
+<style>
+	.style1{
+
+	}
+
+div.className="style1"
+div.classList.add("style1")
+div.setAttribute("class","style1")
