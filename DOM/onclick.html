@@ -18,9 +18,11 @@
 		console.log(element);
 		element.innerText="Thanks for this tutorial";
 		element.style.color="red";
+			event.target.innerHTML="CHANGED";
 		}
-		button.onclick = function(){
-			alert("hi");
+		button.dblclick = function(event){
+			// this.innerHTML="CHANGED";
+			console.log(event.target.id)
 		}
 			// alternative for above strategy
 		// button.onclick = change;
