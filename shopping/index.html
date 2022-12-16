@@ -1,0 +1,57 @@
+<!-- https://dummyjson.com/docs/products -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	
+	<h1>Welcome to Online Shopping</h1>
+	
+<!-- cart container that will contain cart items -->
+	<!-- <div id="data"></div> -->
+	<h1> Cart</h1>
+	 <div class="cart"></div>
+	
+	<script>
+		const allProducts = [];
+		// fetch products from API
+			fetch('https://dummyjson.com/products')
+			.then((res) =>{ 
+				return res.json() }) 
+				.then ((data) => {
+				let temp ="";
+
+				// traverse through fetched products and display items
+					for(let i=0;i<data.products.length;i++){
+						temp += `<div class="item">
+							<div class="img">
+							<img  src=${data.products[i].thumbnail} alt="" height=200 width=200>
+							</div>
+							<p class="name">${data.products[i].title}</p>  
+							<div class="price">$${data.products[i].price}</div> 
+							<div class="info">${data.products[i].description}</div>
+							<button class="button" onclick="addtocart(this)">Add to cart</button> 
+							<select class="qty">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								</select>
+						</div>`;
+					}
+					const div = document.createElement("div");
+					div.innerHTML=temp;
+					div.id="data";
+					document.body.appendChild(div);
+     	})
+		 .catch((err) => console.log("error",err))
+		 </script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* https://css-tricks.com/introduction-fr-css-unit/ */
+#data{
+	display: grid;
+  grid-template-columns: repeat(7, 1fr);
+	gap:20px;
+	/* grid-column-gap: 10px; */
+	margin:20px;
+}
+.item{
+	height:410px;
+	width:200px;
+	border:2px solid black;
+}
+.item :hover {
+	transform: scale(1.04);  
+	transition-duration:0.8s; 
+}
+.item .name{
+	font-family:fantasy;
+	font-weight: bold;
+	text-align: center;
+}
+.button{
+	display:block;
+	margin: 5px auto;
+	text-align: center;
+}
