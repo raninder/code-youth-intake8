@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		ul{
+			list-style-type:none;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		const url = "https://type.fit/api/quotes";
+		fetch(url)  //promise
+		.then((res)=>{   //if promise fulfilled
+			return res.json()
+		})
+		.then((data)=> {
+			console.log("data",data)
+			const list  = document.createElement("ul");
+			for(let i=0;i<10;i++){
+				const li = document.createElement("li");
+				li.innerHTML = data[i].text;
+				list.appendChild(li);
+			}
+			document.body.appendChild(list);
+		}
+		)
+		.catch((err)=>{  //if promise rejected
+			console.log(err)
+		})
+	</script>
+
+</body>
+</html>
