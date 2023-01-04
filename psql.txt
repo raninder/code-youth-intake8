@@ -1,0 +1,12 @@
+- Introduction to databases
+https://www.elephantsql.com/blog/databases-for-beginners-what-is-a-database-what-is-postgresql.html
+https://www.programiz.com/sql/database-introduction
+
+- different types of keys
+https://www.learncomputerscienceonline.com/database-keys/
+
+- entity Relationaship model
+https://www.javatpoint.com/dbms-er-model-concept
+
+- Installation postgresql
+https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/
