@@ -54,4 +54,5 @@ INSERT INTO users(name,address,marks,dob) VALUES('John','Canada',80,'10-07-2011'
 9. view data in a table
 SELECT * FROM users;
 
-10. foreign keyCREATE TABLE products(id SERIAL PRIMARY KEY, item VARCHAR(40),amount INT, user_id INT REFERENCES users(id) ON DELETE CASCADE);
+10. creating table with foreign key
+CREATE TABLE products(id SERIAL PRIMARY KEY, item VARCHAR(40),amount INT, user_id INT REFERENCES users(id) ON DELETE CASCADE);
