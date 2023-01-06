@@ -56,3 +56,35 @@ SELECT * FROM users;
 
 10. creating table with foreign key
 CREATE TABLE products(id SERIAL PRIMARY KEY, item VARCHAR(40),amount INT, user_id INT REFERENCES users(id) ON DELETE CASCADE);
+
+shipping table
+db8=# CREATE TABLE shippings (
+db8(# shipping_id SERIAL PRIMARY KEY,
+db8(# status VARCHAR(50),
+db8(# customer INT REFERENCES customers(customer_id)
+db8(# );
+
+orders table
+CREATE TABLE orders(id SERIAL PRIMARY KEY,item VARCHAR(40),amount INT,customer_id INT REFERENCES customers(customer_id) ON DELETE CASCADE);
+
+Queries
+return customers who live in US
+return customers age greater than 25 and less than 30(AND / BETWEEN)
+return names of customers who live in US or UK (IN)
+return names of customers whose name start with j(LIKE)
+return orders sorted by amount(ORDER BY)
+return no. of pending and delivered shippings(GROUP BY)
+return total no. of curomers who live in UK(COUNT)
+return total and average amount from orders(SUM, AVG)
+retrun minimum and maximum amount from orders(MAX, MIN)
+return ids of orders where amount greater than average amount(SUBQUERY)
+return names of customers who have ordered keyboard(JOIN)
+Select first_name, last_name
+From Customers 
+join Orders
+ON Customers.customer_id=Orders.customer_id
+where item='Keyboard';
+
+return names of all those customers whose shipping status is pending.
+return names of customers who spend more than 300 on items
+return names of customers who ordered keyboard and shipping status is pending
